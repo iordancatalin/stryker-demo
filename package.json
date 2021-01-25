@@ -1,0 +1,25 @@
+{
+  "name": "stryker-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "karma start karma.conf.cjs",
+    "stryker": "stryker run stryker.conf.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@stryker-mutator/core": "^4.3.1",
+    "@stryker-mutator/karma-runner": "^4.3.1",
+    "karma": "^6.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1"
+  },
+  "dependencies": {
+    "karma-jasmine-html-reporter": "^1.5.4"
+  }
+}
